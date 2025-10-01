@@ -1,25 +1,32 @@
-import logo from './logo.svg';
-import './App.css';
+// import cx from 'classnames'
+// Always import libraries or named expots from that library from node modules first
+import {Routes, Route} from 'react-router-dom'
+// Then import your components
+import Navbar from './components/Navbar'
+import ButtonPage from './pages/ButtonPage'
+import AccordionPage from './pages/AccordionPage'
+import DropdownPage from './pages/DropdownPage'
+// then your CSS and or DATA files
+// import './index.css'
+// data example
+// import dropdownData from './data/dropdown-data'
 
-function App() {
+const App = () => {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div className="container mx-auto grid grid-cols-6 gap-4 mt-4">
+      <div>
+        <Navbar />
+      </div>
+      <div className="col-span-5 relative">
+        <Routes>
+          <Route path="/" element={<ButtonPage />} />
+          <Route path="/accordion" element={<AccordionPage />} />
+          <Route path="/dropdown" element={<DropdownPage />} />
+          {/* Add route here to your custom component */}
+        </Routes>
+      </div>
     </div>
-  );
+  )
 }
 
-export default App;
+export default App
