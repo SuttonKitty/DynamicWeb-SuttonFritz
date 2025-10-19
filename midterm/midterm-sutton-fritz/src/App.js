@@ -7,6 +7,9 @@ import Logo from './components/Logo'
 import Header from './components/Header'
 import Navigation from './components/Navigation'
 import About from './components/About'
+import Footer from './components/Footer'
+// import scrollYProgress from './components/Scroll'
+
 
 
 import ButtonPage from './pages/ButtonPage'
@@ -24,6 +27,9 @@ import './index.css'
 const App = () => {
   return (
     <div className="container flex flex-col flext-wrap gap-4 mt-4">
+      {/* <div>
+        <scrollYProgress />
+      </div> */}
       <div>
         <Logo />
       </div>
@@ -49,6 +55,16 @@ const App = () => {
       </div>
       <hr className='w-[90%] border-dotted border-[black]'/>
 
+      {/* <div>
+        <About />
+      </div>
+      <hr className='w-[90%] border-dotted border-[black]'/> */}
+
+      <div>
+        <Footer />
+      </div>
+      <hr className='w-[90%] border-dotted border-[black]'/>
+
       <div className="relative">
         <Routes>
           <Route path="/button" element={<ButtonPage />} />
@@ -57,6 +73,8 @@ const App = () => {
           <Route path="/randomGen" element={<RandomGenPage />} />
         </Routes>
       </div>
+
+      
     </div>
   )
 }

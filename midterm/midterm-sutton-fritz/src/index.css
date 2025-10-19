@@ -10,7 +10,7 @@ body {
   @apply bg-[#FAF8F1];
   /* display: flex; */
   margin: 2rem;
-  height: 200vh;
+  /* height: 200vh; */
   font-family: var(--ff-syne);
   /* flex-wrap: wrap;
   scroll-behavior: smooth;
@@ -29,6 +29,10 @@ body {
 
 #name {
   font-family: var(--ff-sacr);
+}
+
+#footer {
+  font-family: var(--ff-syne);
 }
 
 /* #about {
@@ -68,7 +72,7 @@ body {
 
 .PicDeMoi {
   width: 80vw;
-  border-radius: 10rem;
+  border-radius: 30rem;
 }
 
 
