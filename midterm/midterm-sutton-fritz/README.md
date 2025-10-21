@@ -7,6 +7,9 @@ I used to think that computers solve problems, but they just focus our minds on 
 ## Inspiration:
 Moodboard: https://www.cosmos.so/script.js/dynamic-web-midterm
 
+## Wireframes:
+https://www.figma.com/site/5tz8Rz8kyMnFmuJMzK0VeJ/v1?node-id=0-1&t=bV8DJHF9Mh9YKtSd-1
+
 ## Code Tutorial:
 
 I figured out how to add invisible text fields using the built in `<textarea />` tag. I made this a reusable component and applied it to my name at the top of the page.
