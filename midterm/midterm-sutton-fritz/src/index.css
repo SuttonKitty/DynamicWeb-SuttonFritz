@@ -12,8 +12,9 @@ body {
   margin: 2rem;
   /* height: 200vh; */
   font-family: var(--ff-syne);
-  /* flex-wrap: wrap;
   scroll-behavior: smooth;
+  /* flex-wrap: wrap;
+  
   overflow-y: auto;
   justify-content: left;
   width: auto; */
@@ -92,6 +93,14 @@ body {
 }
 
 #enchante {
+  font-family: var(--ff-sacr);
+}
+
+#projets {
+  font-family: var(--ff-sacr);
+}
+
+#trouver-moi {
   font-family: var(--ff-sacr);
 }
 

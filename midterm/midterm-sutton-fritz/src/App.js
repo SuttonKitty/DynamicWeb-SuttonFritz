@@ -19,6 +19,7 @@ import RandomGenPage from './pages/RandomGenPage'
 import LandingPage from './pages/LandingPage'
 
 
+
 // then your CSS and or DATA files
 import './index.css'
 // data example

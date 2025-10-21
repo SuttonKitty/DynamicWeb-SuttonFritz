@@ -9,18 +9,16 @@ const Logo = () => {
         {/* auto change red when srolled to that section */}
 
         {/* <div className="focus:outline focus:outline-[black]"> */}
-          <a href="../app" className="p-[0.1rem] flex flex-col text-[black] text-[1rem] w-[2.5rem] text-justify underline decoration-dotted  underline-[#BF092F] rounded-[1rem] fixed top-[10rem] right-[2.5%] hover:text-[#BF092F] hover:underline-[#FAF8F1]">
+          <a href="#enchante" className="p-[0.1rem] flex flex-col text-[black] text-[1rem] w-[2.5rem] text-justify underline decoration-dotted  underline-[#BF092F] rounded-[1rem] fixed top-[10rem] right-[2.5%] hover:text-[#BF092F] hover:underline-[#FAF8F1]">
               N°1
           </a>
-          <a href="../app" className="p-[0.1rem] flex flex-col text-[black] text-[1rem] w-[2.5rem] text-justify underline decoration-dotted  underline-[#BF092F] rounded-[1rem] fixed top-[13rem] right-[2.5%] hover:text-[#BF092F] hover:underline-[#FAF8F1]">
+          <a href="#projets" className="p-[0.1rem] flex flex-col text-[black] text-[1rem] w-[2.5rem] text-justify underline decoration-dotted  underline-[#BF092F] rounded-[1rem] fixed top-[13rem] right-[2.5%] hover:text-[#BF092F] hover:underline-[#FAF8F1]">
               N°2
           </a>
-          <a href="../app" className="p-[0.1rem] flex flex-col text-[black] text-[1rem] w-[2.5rem] text-justify underline decoration-dotted  underline-[#BF092F] rounded-[1rem] fixed top-[16rem] right-[2.5%] hover:text-[#BF092F] hover:underline-[#FAF8F1]">
+          <a href="#trouver-moi" className="p-[0.1rem] flex flex-col text-[black] text-[1rem] w-[2.5rem] text-justify underline decoration-dotted  underline-[#BF092F] rounded-[1rem] fixed top-[16rem] right-[2.5%] hover:text-[#BF092F] hover:underline-[#FAF8F1]">
               N°3
           </a>
-          <a href="../app" className="p-[0.1rem] flex flex-col text-[black] text-[1rem] w-[2.5rem] text-justify underline decoration-dotted  underline-[#BF092F] rounded-[1rem] fixed top-[19rem] right-[2.5%] hover:text-[#BF092F] hover:underline-[#FAF8F1]">
-              N°4
-          </a>
+          
           {/* <a href="../app" className="p-[0.1rem] flex flex-col text-[black] text-[1rem] w-[2.5rem] text-justify underline decoration-dotted  underline-[#BF092F] rounded-[1rem] fixed top-[22rem] right-[2.5%] hover:text-[#BF092F] hover:underline-[#FAF8F1]">
               N°5
           </a>

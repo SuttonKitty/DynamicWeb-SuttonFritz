@@ -12,27 +12,18 @@ import Button from '../components/Button'
 const Navigation = () => {
   return (
 
-        <div id="nav" className='flex flex-col w-[90%] text-[100%] text-[black] flex-wrap underline decoration-dotted items-between pr-px-[2%]' >
+        <div id="nav" className='flex  w-[90%] text-[100%] text-[black] flex-wrap underline decoration-dotted pr-px-[5rem]  ' >
             {/* <hr className='w-[100%] border-dotted border-[#8EB486]'/> */}
-            <div id="home-buttons" className='flex flex-row  flex-wrap justify-between '>
-                <Button>
-                    N°1 moi
-                </Button>
-                <Button>
+            <div id="home-buttons" className='flex flex-row gap-[2rem] flex-wrap '>
+                <a href="#enchante" className='my-1  p-1 hover:bg-[black] hover:text-[#FAF8F1] flex items-center  font-semibold focus:outline focus:outline-[black]'>
+                    N°1 enchanté
+                </a>
+                <a href="#projets" className='my-1  p-1 hover:bg-[black] hover:text-[#FAF8F1] flex items-center  font-semibold focus:outline focus:outline-[black]'>
                     N°2 projets
-                </Button>
-                <Button>
-                    N°3 revenu
-                </Button>
-                <Button>
-                    N°4 lorum
-                </Button>
-                <Button>
-                    N°5 ipsum
-                </Button>
-                <Button>
-                    N°6 trouver-moi
-                </Button>
+                </a>
+                <a href="#trouver-moi" className='my-1  p-1 hover:bg-[black] hover:text-[#FAF8F1] flex items-center  font-semibold focus:outline focus:outline-[black]'>
+                    N°3 trouver-moi
+                </a>
             </div>
             {/* <div id="home-buttons" className='flex flex-col   items-between '>
                 <Button>
