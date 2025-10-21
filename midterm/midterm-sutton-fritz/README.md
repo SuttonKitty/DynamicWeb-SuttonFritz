@@ -4,6 +4,9 @@
 
 I used to think that computers solve problems, but they just focus our minds on a single task while they ask the question. This inspired me to create a sandbox portfolio where all text can be edited by the user.
 
+## Inspiration:
+Moodboard: https://www.cosmos.so/script.js/dynamic-web-midterm
+
 ## Code Tutorial:
 
 I figured out how to add invisible text fields using the built in `<textarea />` tag. I made this a reusable component and applied it to my name at the top of the page.
