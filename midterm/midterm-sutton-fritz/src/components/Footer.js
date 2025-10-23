@@ -1,24 +1,27 @@
 const Footer = () => {
   return (
-    <div id="footer" className="flex text-wrap text-[100%] justify-between flex-row text-[black] w-[90%] font-semibold text-bold">
-        {/* <div  className="flex justify-center ">
-
-            trouver-moi
-        </div> */}
-        {/* <div id="enchante" className="flex text-nowrap justify-center text-[1.5rem] px-5">
-            enchanté
-        </div> */}
-        {/* linkin, gmail, gihub */}
-        <div className="flex   px-5">
-            + LinkedIn
-        </div>
-        <div className="flex   px-5">
-            + LinkedIn
-        </div>
-        <div className="flex  px-5">
-            + LinkedIn
-        </div>
+    <div className="mb-10 mt-10">
+        <hr className='border-dotted border-[black] mb-5'/>
         
+        <div className="flex text-s flex-row text-[black] underline decoration-dotted justify-between mb-5">
+            <div id="mono" className="flex justify-end gap-5 font-semibold">
+                <a rel="me" href="mailto:sutton.fritz04@gmail.com" className="hover:bg-[black] hover:text-[#FAF8F1] flex items-center p-[0.1rem] font-semibold focus:outline focus:outline-[black]">
+                    Email
+                </a>
+            </div>
+
+            <div id="mono" className="flex justify-end gap-5 font-semibold">
+                <a href="https://github.com/SuttonKitty" target="_blank" rel="noopener noreferrer" className="hover:bg-[black] hover:text-[#FAF8F1] flex items-center p-[0.1rem] font-semibold focus:outline focus:outline-[black]">
+                    GitHub
+                </a>
+            </div>
+
+            <div id="mono" className="flex justify-end gap-5 font-semibold">
+                <a href="https://www.linkedin.com/in/sutton-fritz" target="_blank" rel="noopener noreferrer" className="hover:bg-[black] hover:text-[#FAF8F1] flex items-center p-[0.1rem] font-semibold focus:outline focus:outline-[black]">
+                    Linkedin
+                </a>
+            </div> 
+        </div>
     </div>
   )
 }

@@ -1,21 +1,21 @@
-import TypeBox from "./TypeBox"
-// imports "TypeBox component"
-
-const defaultName = "Sutton Fritz"
-// declares "defaultName"
+import Navbar from './Navbar'
 
 const Header = () => {
   return (
-    <div className=" flex text-wrap justify-between items-center flex-row text-[black] w-[90%] ">
-    {/* parent container */}
-        <div id="name" className="flex justify-center text-[250%] text-[#BF092F]">
-          {/* TypeBox container */}
-            <TypeBox prop={defaultName} />
-            {/* sets "prop" from TypeBox to "defaultName", which is "Sutton Fritz" */}
-        </div>
-        <div id="header-div" className="flex text-nowrap justify-center text-[1.5rem] px-[2%]">
-            {'</>'}
-        </div>
+    <div className='mt-[1rem]'>
+      <div id="cursive" className="text-[#BF092F] text-5xl mb-[3rem]">
+        <a href="/">
+          Sutton Fritz
+        </a>
+      </div>
+
+      {/* <div id="philosophy" className='mb-[3rem] text-s'>
+          I used to think computers solved questions, but they focus our attentions to a single task and ask <i>us</i> the question.
+      </div> */}
+
+      <div className='mb-[3rem]'>
+        <Navbar />
+      </div>
     </div>
   )
 }
