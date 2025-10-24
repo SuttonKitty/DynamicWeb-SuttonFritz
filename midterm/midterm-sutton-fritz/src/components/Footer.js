@@ -18,7 +18,7 @@ const Footer = () => {
 
             <div id="mono" className="flex justify-end gap-5 font-semibold">
                 <a href="https://www.linkedin.com/in/sutton-fritz" target="_blank" rel="noopener noreferrer" className="hover:bg-[black] hover:text-[#FAF8F1] flex items-center p-[0.1rem] font-semibold focus:outline focus:outline-[black]">
-                    Linkedin
+                    LinkedIn
                 </a>
             </div> 
         </div>

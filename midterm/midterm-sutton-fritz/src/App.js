@@ -6,7 +6,7 @@ import Footer from './components/Footer'
 
 import MoiPage from './pages/MoiPage'
 import ProjetsPage from './pages/ProjetsPage'
-import RevenuPage from './pages/RevenuPage'
+import RevuePage from './pages/RevuePage'
 import EnchantePage from './pages/EnchantePage'
 import PhotosPage from './pages/PhotosPage'
 
@@ -29,7 +29,7 @@ const App = () => {
           <Route path="/" element={<EnchantePage />} />
           <Route path="/N°1 moi" element={<MoiPage />} />
           <Route path="/N°2 projets" element={<ProjetsPage />} />
-          <Route path="/N°3 revenu" element={<RevenuPage />} />
+          <Route path="/N°3 revue" element={<RevuePage />} />
           <Route path="/N°4 photos" element={<PhotosPage />} />
         </Routes>
       </div>

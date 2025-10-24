@@ -1,4 +1,4 @@
-import PicDeMoi from '../assets/moi.JPG'
+import PicDeMoi from '../assets/moi.png'
 
 const EnchanteTop = () => {
   return (
@@ -17,9 +17,8 @@ const EnchanteTop = () => {
           Enchanté
         </div>
 
-        <div
-          id="inter" className="w-full md:w-2/3 text-base leading-relaxed">
-          is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.
+        <div id="inter" className="w-full md:w-1/2 text-base leading-relaxed">
+          I am an Integrated Design & Media student at New York University Tandon School of Engineering. I specialize in front-end web development.
         </div>
 
       </div>

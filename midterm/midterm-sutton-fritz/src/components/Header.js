@@ -8,6 +8,9 @@ const Header = () => {
           Sutton Fritz
         </a>
       </div>
+      {/* <div id="mono" className='text-sm mb-[3rem]'>
+        {`<WebDeveloper/>`}
+      </div> */}
 
       {/* <div id="philosophy" className='mb-[3rem] text-s'>
           I used to think computers solved questions, but they focus our attentions to a single task and ask <i>us</i> the question.
