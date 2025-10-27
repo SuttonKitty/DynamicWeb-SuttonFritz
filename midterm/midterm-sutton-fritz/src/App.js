@@ -29,7 +29,7 @@ const App = () => {
           <Route path="/" element={<EnchantePage />} />
           <Route path="/N°1 moi" element={<MoiPage />} />
           <Route path="/N°2 projets" element={<ProjetsPage />} />
-          <Route path="/N°3 revue" element={<RevuePage />} />
+          <Route path="/N°3 scrapbook" element={<RevuePage />} />
           <Route path="/N°4 photos" element={<PhotosPage />} />
         </Routes>
       </div>

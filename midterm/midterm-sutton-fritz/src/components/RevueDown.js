@@ -17,7 +17,7 @@ const RevueDown = ({ fileUrl, fileName }) => {
             href={fileUrl}
             download={fileName}
             id="mono"
-            className="text-[#BF092F] underline decoration-dotted hover:bg-[black] hover:text-[#FAF8F1] font-semibold p-[0.1rem] w-fit md:hidden"
+            className="text-[#BF092F] hover:bg-[black] hover:text-[#FAF8F1] p-[0.1rem] md:hidden"
         >
             <TiDownload className="text-3xl" />
         </a>
@@ -27,7 +27,7 @@ const RevueDown = ({ fileUrl, fileName }) => {
             href={fileUrl}
             download={fileName}
             id="mono"
-            className="text-[#BF092F] hidden md:block underline decoration-dotted hover:bg-[black] hover:text-[#FAF8F1] font-semibold p-[0.1rem] w-fit"
+            className="text-[#BF092F] md:block hover:bg-[black] hover:text-[#FAF8F1] p-[0.1rem] hidden"
         >
             <TiDownload className="text-3xl" />
         </a>

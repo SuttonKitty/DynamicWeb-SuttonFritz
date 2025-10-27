@@ -1,3 +1,5 @@
+// Make API
+
 const PhotosPage = () => {
   return (
     <div>
