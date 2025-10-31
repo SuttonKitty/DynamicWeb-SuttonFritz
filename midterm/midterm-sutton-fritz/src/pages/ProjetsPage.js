@@ -275,8 +275,8 @@ const ITEMS = [
 const ProjetsPage = () => {
   return (
     <div>
-      <div id="cursive" className="text-[#BF092F] text-3xl mb-3">
-        Mes Projets
+      <div id="mono" className="text-[#BF092F] font-semibold text-3xl mb-1 ">
+        work
       </div>
 
       <div>

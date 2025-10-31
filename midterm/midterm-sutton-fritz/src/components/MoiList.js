@@ -1,8 +1,8 @@
-const EnchanteList = ({ 
+const MoiList = ({ 
   title, 
   items, 
-  titleFont = " font-semibold",
-  itemFont = "font-sacr text-base" 
+  titleFont = "font-sacr font-semibold",
+  itemFont = "font-sacr " 
 }) => {
   return (
     <div className="flex flex-col">
@@ -16,4 +16,4 @@ const EnchanteList = ({
   );
 };
 
-export default EnchanteList;
+export default MoiList;

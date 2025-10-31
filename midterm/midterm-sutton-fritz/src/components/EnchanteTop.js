@@ -9,7 +9,7 @@ const EnchanteTop = () => {
           <img
             src={PicDeMoi}
             alt="PicDeMoi"
-            className="w-full md:w-3/4 rounded-sm shadow-md"
+            className="w-full md:w-[75%] rounded-sm shadow-md"
           />
         </div>
 
